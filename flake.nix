@@ -21,13 +21,15 @@
               pandas
               seaborn
               scipy
+              nbdime
             ]))
+            git
           ];
 
-          shellHook = ''
-            echo "Starting Jupyter Notebook..."
-            jupyter notebook
-          '';
+          #shellHook = ''
+          #  echo "Starting Jupyter Notebook..."
+          #  jupyter notebook
+          #'';
         };
       }
     );
